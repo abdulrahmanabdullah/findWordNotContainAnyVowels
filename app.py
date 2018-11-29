@@ -16,7 +16,7 @@ class SearchVowels:
     def getListFile(self):
         ''' convert file as list .'''
         fileAsList = []
-        with open('article_2.txt', 'r') as fname:
+        with open('article.txt', 'r') as fname:
             for line in fname:
                 for word in line.split():  # split each lines in the article
                     fileAsList.append(word.lower())
